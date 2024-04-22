@@ -14,4 +14,7 @@ guest, password: guest).
 ![img_1.png](img_1.png)
 
 ### Monitoring chart based on publisher.
-![img_2.png](img_2.png)
+![img_2.png](img_2.png) <br>
+The spikes in the RabbitMQ browser charts are likely related to the publisher sending messages. Each spike 
+corresponds to the moment when the publisher sends a batch of messages. As the publisher sends messages, RabbitMQ 
+processes them and adds them to the queues. This processing and queuing of messages can cause spikes in the charts, indicating increased activity on the message broker.
