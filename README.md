@@ -12,6 +12,11 @@ guest, password: guest).
 
 ### Sending and processing event.
 ![img_1.png](img_1.png)
+![img_3.png](img_3.png) <br>
+In my subscriber console, we could see output indicating that the subscriber is receiving and processing messages. In my 
+publisher console, we could see that the program successfully compiled and finished building (`Finished dev 
+[unoptimized + debuginfo] target(s) in 0.39s`).
+
 
 ### Monitoring chart based on publisher.
 ![img_2.png](img_2.png) <br>
